@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Friendly-Greeting defaultreaction="Greeting">
+  <Root text="DoIKnowThisPerson">
+    <Node text="AmIWaryOfStrangers" decision="left" test="40">
+      <Node text="AmIInAGoodMood" decision="left" test="50">
+        <Leaf text="Greeting" decision="left" />
+		    <Leaf text="FriendlyGreeting" decision="right" />	
+      </Node>
+      <Node text="AmIPolite" decision="right" test="40">
+        <Node text="AmIInMyHometown" decision="left">
+          <Leaf text="WaryGlance" decision="left" />
+          <Node text="Is It A Big Town?" decision="right">
+            <Node text="Will I Respond Verbally?" decision="left" test="60">
+              <Leaf text="Glare" decision="left" />
+              <Leaf text="HostileWhoAreYou" decision="right" />
+            </Node>
+            <Leaf text="Ignore" decision="right" />
+          </Node>
+        </Node>
+        <Leaf text="Greeting" decision="right" />
+      </Node>
+    </Node>
+    <Node text="Do I Like This Person" decision="right">
+      <Node text="AmIPolite" decision="left" test="40">
+        <Leaf text="GoToHell" decision="left" />
+        <Leaf text="Greeting" decision="right" />
+      </Node>
+      <Leaf text="FriendlyGreeting" decision="right" />
+    </Node>
+  </Root>
+</Verbal-Friendly-Greeting>

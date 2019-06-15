@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DoIHaveGoodABigEgo>
+  <Node text="DoIHaveGoodABigEgo">
+    <Leaf text="HowDareYou" decision="right" />
+    <Leaf text="Default" decision="left" />
+  </Node>
+</DoIHaveGoodABigEgo>

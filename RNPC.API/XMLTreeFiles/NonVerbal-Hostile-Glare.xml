@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NonVerbal-Hostile-Glare defaultreaction="WhyAreYouActing">
+  <Root text="IsThereEnmityBetweenUs">
+    <Leaf text="GoToHell" decision="left" />
+    <Node text="DoIKnowWhyThereIsEnmity" decision="right">
+      <Leaf text="ConfusedLook" decision="left" />
+      <Leaf text="Default" decision="right" />
+    </Node>
+
+  </Root>
+</NonVerbal-Hostile-Glare>

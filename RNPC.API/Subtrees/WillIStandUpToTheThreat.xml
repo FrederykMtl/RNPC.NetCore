@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<WillIStandUpToTheThreat>
+  <Node text="WillIStandUpToTheThreat" Test="60">
+    <Leaf text="Cower" decision="left" />
+    <Leaf text="Rebuke" decision="right" />
+  </Node>
+</WillIStandUpToTheThreat>

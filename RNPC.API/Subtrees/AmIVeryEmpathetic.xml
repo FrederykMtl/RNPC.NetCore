@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AmIVeryEmpathetic>
+  <Node text="AmIVeryEmpathetic" test="60">
+    <Leaf text="RequestToStop" decision="left" />
+    <Leaf text="EnquireAboutMotive" decision="right" />
+  </Node>
+</AmIVeryEmpathetic>

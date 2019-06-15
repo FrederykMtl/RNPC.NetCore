@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AmIPoliteImTerrible>
+    <Node text="AmIPolite" test="40">
+      <Leaf text="ImTerrible" decision="left" />
+      <Leaf text="Default" decision="right" />
+    </Node> 
+</AmIPoliteImTerrible>

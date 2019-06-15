@@ -1,0 +1,34 @@
+﻿namespace RNPC.Core.Enums
+{
+    public enum ArchetypalValues
+    {
+        Honesty,
+        Stability,
+        Security,
+        Independance,
+        Autonomy,
+        Freedom,
+        Honour,
+        Strength,
+        Service,
+        Compassion,
+        Community,
+        Adventure,
+        Learning,
+        Love,
+        Pleasure,
+        Happiness,
+        Justice,
+        Growth,
+        Achievement,
+        Creativity,
+        Responsibility,
+        Competency,
+        Authority,
+        Knowledge,
+        Curiosity,
+        Wisdom,
+        Truth,
+        Humour
+    }
+}

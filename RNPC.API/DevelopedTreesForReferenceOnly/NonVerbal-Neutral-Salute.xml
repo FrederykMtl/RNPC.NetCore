@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NonVerbal-Neutral-Salute defaultreaction="Salute">
+  <Root text="DoIKnowThisPerson">
+    <Node text="AmIWaryOfStrangers" decision="left" test="40">
+      <Leaf text="Salute" decision="left" />
+      <Node text="AmIPolite" decision="right">
+        <Leaf text="ColdLook" decision="left" />
+        <Leaf text="Default" decision="right" />
+      </Node>
+    </Node>
+    <Node text="DoILikeThisPerson" decision="right">
+      <Node text="AmIPolite" decision="left" test="40">
+        <Leaf text="GoToHell" decision="left" />
+        <Leaf text="Default" decision="right" />
+      </Node>
+      <Leaf text="Default" decision="right" />
+    </Node>
+  </Root>
+</NonVerbal-Neutral-Salute>

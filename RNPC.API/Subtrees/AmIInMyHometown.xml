@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AmIInMyHometown>
+  <Node text="AmIInMyHometown" decision="left">
+    <Leaf text="WaryGlance" decision="left" />
+    <Node text="IsItABigTown" decision="right">
+      <Node text="WillIRespondVerbally" decision="left" test="60">
+        <Leaf text="Glare" decision="left" />
+        <Leaf text="HostileWhoAreYou" decision="right" />
+      </Node>
+      <Leaf text="Ignore" decision="right" />
+    </Node>
+  </Node>
+</AmIInMyHometown>

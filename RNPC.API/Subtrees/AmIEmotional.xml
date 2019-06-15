@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AmIEmotional>
+  <Node text="AmIEmotional" decision="left" test="60">
+    <Leaf text="LookSad" decision="left" />
+    <Leaf text="Cry" decision="right" />
+  </Node>
+</AmIEmotional>

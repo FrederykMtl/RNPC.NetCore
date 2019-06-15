@@ -1,0 +1,184 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\AssociationDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AssociationDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\AssociationReverseDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AssociationReverseDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\CharacterMessages.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>CharacterMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Demographics.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Demographics.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\ErrorMessages.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ErrorMessages.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\EventRelationshipDescriptions.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>EventRelationshipDescriptions.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\GeographicRelationshipDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>GeographicRelationshipDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\KnowledgeAccuracyParameters.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>KnowledgeAccuracyParameters.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\OccupationalInvolvementDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>OccupationalInvolvementDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\OccupationalInvolvementReverseDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>OccupationalInvolvementReverseDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\OccupationalTieDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>OccupationalTieDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\OccupationalTieReverseDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>OccupationalTieReverseDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\OccurenceDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>OccurenceDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\OccurenceReverseDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>OccurenceReverseDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\PersonalInvolvementDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PersonalInvolvementDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\PersonalInvolvementReverseDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PersonalInvolvementReverseDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\PersonalTieDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PersonalTieDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\PersonalTieReverseDescription.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>PersonalTieReverseDescription.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\TraitDistribution.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TraitDistribution.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\AssociationDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AssociationDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\AssociationReverseDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AssociationReverseDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\CharacterMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CharacterMessages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Demographics.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Demographics.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\ErrorMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ErrorMessages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\EventRelationshipDescriptions.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>EventRelationshipDescriptions.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\GeographicRelationshipDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>GeographicRelationshipDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\KnowledgeAccuracyParameters.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>KnowledgeAccuracyParameters.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\OccupationalInvolvementDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OccupationalInvolvementDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\OccupationalInvolvementReverseDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OccupationalInvolvementReverseDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\OccupationalTieDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OccupationalTieDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\OccupationalTieReverseDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OccupationalTieReverseDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\OccurenceDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OccurenceDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\OccurenceReverseDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>OccurenceReverseDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\PersonalInvolvementDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PersonalInvolvementDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\PersonalInvolvementReverseDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PersonalInvolvementReverseDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\PersonalTieDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PersonalTieDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\PersonalTieReverseDescription.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>PersonalTieReverseDescription.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\TraitDistribution.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TraitDistribution.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

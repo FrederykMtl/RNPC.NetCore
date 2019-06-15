@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Neutral-Apology defaultreaction="ThankYou">
+  <Root text="IsThereAReasonForThis">
+    <Leaf text="AskWhy" decision="left" />
+    <Leaf text="SincereThankYou" decision="right" />
+  </Root>
+</Verbal-Neutral-Apology>

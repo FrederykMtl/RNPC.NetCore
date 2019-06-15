@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Hostile-Mocking defaultreaction="Angry">
+  <Root text="DoIHaveGoodSelfEsteem" test="60">
+    <Node text="AmIHurtByTheirMockery" decision="left"  test="60">
+      <Leaf text="YoureAnIdiot" decision="left" />
+      <Leaf text="Cry" decision="right" />
+    </Node>
+    <Leaf text="Scoff" decision="right" />
+  </Root>
+</Verbal-Hostile-Mocking>

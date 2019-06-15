@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<WillIRespondVerballyDisapprovingLook>
+  <Node text="WillIRespondVerbally" Test="60">
+    <Leaf text="DisapprovingLook" decision="left" />
+    <Leaf text="Default" decision="right" />
+  </Node>
+</WillIRespondVerballyDisapprovingLook>

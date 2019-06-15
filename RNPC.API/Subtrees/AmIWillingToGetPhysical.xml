@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AmIWillingToGetPhysical>
+  <Node text="AmIWillingToGetPhysical" test="40">
+    <Leaf text="YellAndThreaten" decision="left" />
+    <Leaf text="Attack" decision="right" />
+  </Node>
+</AmIWillingToGetPhysical>

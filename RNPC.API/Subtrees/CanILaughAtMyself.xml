@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CanILaughAtMyself>
+  <Node text="CanILaughAtMyself">
+    <Leaf text="Angry" decision="left" />
+    <Leaf text="Laugh" decision="right" />
+  </Node>
+</CanILaughAtMyself>

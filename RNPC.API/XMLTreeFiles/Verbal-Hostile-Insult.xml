@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Hostile-Insult defaultreaction="VerbalInsult">
+  <Root text="AmIInABadMood?">
+    <Node text="AmIQuickToAnger" decision="left" test="40">
+      <Node text="DoIFeelInsulted" decision="left" test="40">
+        <Node text="AmIInAPositionOfAuthority?" decision="left" test="80">
+			    <Node text="DoIWantToPlacateHim" decision="left" test="60">
+			      <Node text="DoIChooseNotToRespond" decision="left" test="60">
+			        <Leaf text="AverageComeback" decision="left" />
+				      <Node text="AmIConfrontationalOrStubborn" decision="right" test="40">
+				        <Leaf text="WalkAway" decision="left" />
+				        <Leaf text="Smile" decision="right" />
+				      </Node>
+			      </Node>
+				    <Leaf text="RequestToStop" decision="right" />  
+			    </Node>
+			    <Leaf text="CommandApology" decision="right" />
+        </Node>
+        <Leaf text="YellAndThreaten" decision="right" />
+      </Node>
+      <Leaf text="YellAndThreaten" decision="right" />
+    </Node>
+    <Node text="AmIPatient" decision="right" test="60">>
+      <Leaf text="YellAndThreaten" decision="left" />
+      <Node text="AmIInAPositionOfAuthority" decision="right" test="80">
+        <Node text="DoIWantToPlacateHim" decision="left" test="60">
+          <Node text="DoIWantToRespond" decision="left" test="60">
+            <Leaf text="AverageComeback" decision="left" />
+            <Node text="AmIConfrontationalOrStubborn" decision="right" test="40">
+              <Leaf text="WalkAway" decision="left" />
+              <Leaf text="Smile" decision="right" />
+            </Node>
+          </Node>
+          <Leaf text="RequestToStop" decision="right" />  
+        </Node>
+        <Leaf text="CommandApology" decision="right" />
+      </Node>
+    </Node>
+  </Root>
+</Verbal-Hostile-Insult>

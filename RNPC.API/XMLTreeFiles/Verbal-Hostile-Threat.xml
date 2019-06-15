@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Hostile-Threat defaultreaction="Cower">
+  <Root text="AreTheyReallyThreateningMe">
+    <Leaf text="Chuckle" decision="left" />
+    <Node text="IsTheThreatPhysical" decision="right">
+      <Node text="IsTheThreatSocial" decision="left">
+        <Node text="IsTheThreatFinancial" decision="left">
+          <Node text="IsTheThreatEmotional" decision="left">
+            <Node text="AmIAfraidForMySoul" decision="left">
+              <Leaf text="Scoff" decision="left" />
+              <Leaf text="Cower" decision="right" />
+            </Node>
+            <Node text="AmIAfraidOfLosingThisRelationship" decision="right">
+              <Leaf text="Scoff" decision="left" />
+              <Leaf text="Cower" decision="right" />
+            </Node>
+          </Node>
+          <Node text="AmIAfraidOfAFinancialLoss" decision="right">
+            <Leaf text="Scoff" decision="left" />
+            <Leaf text="Cower" decision="right" />
+          </Node>
+        </Node>
+        <Node text="AmIAfraidOfLosingMyStatus" decision="right">
+          <Leaf text="Scoff" decision="left" />
+          <Leaf text="Cower" decision="right" />
+        </Node>
+      </Node>
+      <Node text="AmIAfraidToBeInjured" decision="right">
+        <Leaf text="Scoff" decision="left" />
+        <Leaf text="Cower" decision="right" />
+      </Node>
+    </Node>
+  </Root>
+</Verbal-Hostile-Threat>

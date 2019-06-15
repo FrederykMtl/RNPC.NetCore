@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<WillIRespondVerballyInsult>
+  <Node text="WillIRespondVerbally" test="60">
+    <Leaf text="NonVerbalInsult" decision="left" />
+    <Leaf text="VerbalInsult" decision="right" />
+  </Node>
+</WillIRespondVerballyInsult>

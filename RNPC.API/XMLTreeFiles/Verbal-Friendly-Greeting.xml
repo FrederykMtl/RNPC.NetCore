@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Friendly-Greeting defaultreaction="Greeting">
+  <Root text="DoIKnowThisPerson">
+    <Node text="AmIWaryOfStrangers" decision="left" test="40">
+        <Leaf text="Default" decision="left" />
+        <Leaf text="WaryGlance" decision="right" />
+    </Node>
+    <Node text="DoILikeThisPerson" decision="right">
+      <Leaf text="GoToHell" decision="left" />
+      <Leaf text="FriendlyGreeting" decision="right" />
+    </Node>
+  </Root>
+</Verbal-Friendly-Greeting>

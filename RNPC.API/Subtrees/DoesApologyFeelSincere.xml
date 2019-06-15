@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DoesApologyFeelSincere>
+  <Node text="DoesItFeelSincere" test="40">
+    <Leaf text="RefuseApology" decision="left" />
+    <Leaf text="Default" decision="right" />
+  </Node>
+</DoesApologyFeelSincere>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Hostile-Threat defaultreaction="Cower">
+  <Root text="Are They Really Threatening Me?">
+    <Leaf text="Chuckle" decision="left" />
+    <Root text="Is The Threat Physical?">
+      <Node text="Is the Threat Social?" decision="left">
+        <Node text="Is The Threat Financial?" decision="left">
+          <Node text="Is The Threat Emotional?" decision="left">
+            <Node text="Am I Afraid For My Soul?" decision="left">
+              <Leaf text="Scoff" decision="left" />
+              <Node text="Will I Stand Up To The Threat?" decision="right" Test="60">
+                <Leaf text="Cower" decision="left" />
+                <Leaf text="Rebuke" decision="right" />
+              </Node>
+            </Node>
+            <Node text="Am I Afraid Of Losing This Relationship?" decision="right">
+              <Leaf text="Scoff" decision="left" />
+              <Node text="Will I Stand Up To The Threat?" decision="right" Test="60">
+                <Leaf text="Cower" decision="left" />
+                <Leaf text="Rebuke" decision="right" />
+              </Node>
+            </Node>
+          </Node>
+          <Node text="Am I Afraid Of A Financial Loss?" decision="right">
+            <Leaf text="Scoff" decision="left" />
+            <Node text="Will I Stand Up To The Threat?" decision="right" Test="60">
+              <Leaf text="Cower" decision="left" />
+              <Leaf text="Rebuke" decision="right" />
+            </Node>
+          </Node>
+        </Node>
+        <Node text="Am I Afraid Of Losing My Status?" decision="right">
+          <Leaf text="Scoff" decision="left" />
+          <Node text="Will I Stand Up To The Threat?" decision="right" Test="60">
+            <Leaf text="Cower" decision="left" />
+            <Leaf text="Rebuke" decision="right" />
+          </Node>
+        </Node>
+      </Node>
+      <Node text="Am I Afraid To Be Injured?" decision="right">
+        <Leaf text="Scoff" decision="left" />
+        <Node text="Will I Stand Up To The Threat?" decision="right" Test="60">
+          <Leaf text="Cower" decision="left" />
+          <Leaf text="Rebuke" decision="right" />
+        </Node>
+      </Node>
+    </Root>
+  </Root>
+</Verbal-Hostile-Threat>

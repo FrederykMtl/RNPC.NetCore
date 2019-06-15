@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Hostile-Insult defaultreaction="Angry">
+  <Root text="Am I In A Bad Mood?">
+    <Node text="Am I Quick To Anger?" decision="left" test="40">
+      <Node text="Do I Feel Insulted?" decision="left" test="40">
+        <Node text="Am I In A Position Of Authority?" decision="left" test="80">
+			    <Node text="Do I Want To Placate Him?" decision="left" test="60">
+			      <Node text="Do I Choose Not To Respond?" decision="left" test="60">
+				    <Node text="Am I Witty?" decision="left" test="60">
+				      <Leaf text="Lame Comeback" decision="left" />
+				      <Leaf text="Smart Comeback" decision="right" />
+				    </Node>
+				    <Node text="Am I Confrontational Or Stubborn?" decision="right" test="40">
+				      <Leaf text="Walk Away" decision="left" />
+				      <Leaf text="Smile" decision="right" />
+				    </Node>
+			      </Node>
+			      <Node text="Am I Very Empathetic?" decision="right" test="60">
+				    <Leaf text="Request To Stop" decision="left" />
+				    <Leaf text="Enquire About Motive" decision="right" />
+			      </Node>
+			    </Node>
+			    <Leaf text="CommandApology" decision="right" />
+        </Node>
+		    <Node text="Am I Going To React Violently?" decision="right" test="40">
+			    <Node text="Will I Respond Verbally?" decision="left" test="60">
+			      <Leaf text="NonVerbal Insult" decision="left" />
+			      <Leaf text="Verbal Insult" decision="right" />
+			    </Node>
+			    <Node text="Am I Willing To Get Physical?" decision="right" test="40">
+			      <Leaf text="YellAndThreaten" decision="left" />
+			      <Leaf text="Attack" decision="right" />
+			    </Node>
+		    </Node>
+      </Node>
+      <Node text="Am I Going To React Violently?" decision="right" test="40">
+        <Node text="Will I Respond Verbally?" decision="left" test="60">
+          <Leaf text="NonVerbal Insult" decision="left" />
+          <Leaf text="Verbal Insult" decision="right" />
+        </Node>
+        <Node text="Am I Willing To Get Physical?" decision="right" test="40">
+          <Leaf text="YellAndThreaten" decision="left" />
+          <Leaf text="Attack" decision="right" />
+        </Node>
+      </Node>
+    </Node>
+    <Node text="Am I Patient?" decision="right" test="60">
+      <Node text="Am I Going To React Violently?" decision="left">
+        <Node text="Will I Respond Verbally?" decision="left" test="60">
+          <Leaf text="NonVerbal Insult" decision="left" />
+          <Leaf text="Verbal Insult" decision="right" />
+        </Node>
+        <Node text="Am I Willing To Get Physical?" decision="right" test="40">
+          <Leaf text="YellAndThreaten" decision="left" />
+          <Leaf text="Attack" decision="right" />
+        </Node>
+      </Node>
+      <Node text="Am I In A Position Of Authority?" decision="right" test="80">
+        <Node text="Do I Want To Placate Him?" decision="left" test="60">
+          <Node text="Do I Want To Respond?" decision="left" test="60">
+            <Node text="Am I Witty?" decision="left" test="60">
+              <Leaf text="Lame Comeback" decision="left" />
+              <Leaf text="Smart Comeback" decision="right" />
+            </Node>
+            <Node text="Am I Confrontational Or Stubborn?" decision="right" test="40">
+              <Leaf text="Walk Away" decision="left" />
+              <Leaf text="Smile" decision="right" />
+            </Node>
+          </Node>
+          <Node text="Am I Very Empathetic?" decision="right" test="60">
+            <Leaf text="Request To Stop" decision="left" />
+            <Leaf text="Enquire About Motive" decision="right" />
+          </Node>
+        </Node>
+        <Leaf text="CommandApology" decision="right" />
+      </Node>
+    </Node>
+  </Root>
+</Verbal-Hostile-Insult>

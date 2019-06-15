@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Friendly-Teasing defaultreaction="AnnoyedWhoAreYou">
+  <Root text="IsThisPersonFriendOrFamily">
+    <Leaf text="IDontLikeYou" decision="left" />
+    <Leaf text="Pout" decision="right" />
+  </Root>
+</Verbal-Friendly-Teasing>

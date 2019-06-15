@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AmIPoliteNoneOfYourBusiness>
+    <Node text="AmIPolite" test="40">
+      <Leaf text="NoneOfYourBusiness" decision="left" />
+      <Leaf text="Default" decision="right" />
+    </Node>
+</AmIPoliteNoneOfYourBusiness>

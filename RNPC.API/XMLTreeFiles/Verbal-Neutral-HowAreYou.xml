@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Neutral-HowAreYou defaultreaction="ImGood">
+  <Root text="DoIKnowThisPerson" test="40">
+    <Node text="WasThereAnIntro" decision="left">
+      <Node text="AmIWaryOfStrangers" decision="left">
+        <Leaf text="Default" decision="left"/>
+        <Leaf text="Nod" decision="right" />
+      </Node>
+      <Leaf text="Default" decision="right"/>
+    </Node>
+    <Node text="DoILikeThisPerson" decision="right">
+      <Leaf text="IsSomethingWrong" decision="right" />
+      <Leaf text="Default" decision="left" />
+    </Node>
+  </Root>
+</Verbal-Neutral-HowAreYou>

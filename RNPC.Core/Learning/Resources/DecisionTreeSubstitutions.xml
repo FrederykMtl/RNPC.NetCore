@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<element>
+  <Substitution leaf="AverageComeback" subtree="AmIWitty" condition="parentnot" conditionname = ""/>
+  <Substitution leaf="Angry" subtree="AmIQuickToAngerTeasing" condition="parentnot" conditionname = "AmIQuickToAnger"/>
+  <Substitution leaf="AnnoyedWhoAreYou" subtree="AmISarcastic" condition="parentnot" conditionname = "AmISarcastic"/>
+  <Substitution leaf="ColdLook" subtree="AmIPoliteColdLookNod" condition="parentnot" conditionname = "AmIPolite"/>
+  <Substitution leaf="Cower" subtree="WillIStandUpToTheThreat" condition="parentnot" conditionname = "WillIStandUpToTheThreat"/>
+  <Substitution leaf="Cry" subtree="HideMyFeelings" condition="parentnot" conditionname = "DoIHideMyFeelings,AmIEmotional"/>
+  <Substitution leaf="Cry" subtree="AmIEmotional" condition="parentnot" conditionname = "AmIHurtByTheirMockery,AmIEmotional"/>
+  <Substitution leaf="Glare" subtree="AmIPoliteColdLook" condition="parentnot" conditionname = "AmIPolite,WillIRespondVerbally,DoIHideMyFeelings"/>
+  <Substitution leaf="FriendlyImGood" subtree="AmIInAGoodMoodFriendlyImGood" condition="parentnot" conditionname = "AmIInAGoodMood"/>
+  <Substitution leaf="VerbalInsult" subtree="WillIRespondVerballyInsult" condition="parentnot" conditionname = "WillIRespondVerbally"/>
+  <Substitution leaf="GoToHell" subtree="AmIPoliteGoToHell" condition="parentnot" conditionname = "AmIPolite"/>
+  <Substitution leaf="Greeting" subtree="AmIInAGoodMoodFriendlyGreeting" condition="parentnot" conditionname = "AmIInAGoodMood,DoIKnowThisPerson"/>
+  <Substitution leaf="IDontLikeYou" subtree="DoIHaveGoodABigEgo" condition="parentnot" conditionname = ""/>
+  <Substitution leaf="ImGood" subtree="AmIPoliteImTerrible" condition="parentnot" conditionname ="AmIPolite,WasThereAnIntro"/>
+  <Substitution leaf="NoneOfYourBusiness" subtree="AmIPoliteNoneOfYourBusiness" condition="parentnot" conditionname = "AmIPolite"/>
+  <Substitution leaf="Pout" subtree="CanILaughAtMyself" condition="parentnot" conditionname = ""/>
+  <Substitution leaf="RefuseApology" subtree="DoIWantToAvoidAConfrontationThanks" condition="parentnot" conditionname ="DoIWantToAvoidAConfrontation"/>
+  <Substitution leaf="RequestToStop" subtree="AmIVeryEmpathetic" condition="parentnot" conditionname = "AmIVeryEmpathetic"/>
+  <Substitution leaf="RudeGesture" subtree="AmIPoliteColdLook" condition="parentnot" conditionname = ""/>
+  <Substitution leaf="SincereThankYou" subtree="DoesApologyFeelSincere" condition="parentnot" conditionname = "DoesItFeelSincere"/>
+  <Substitution leaf="Smile" subtree="AmIInAGoodMoodSincereSmile" condition="parentnot" conditionname = "AmIInAGoodMood"/>
+  <Substitution leaf="WaryGlance" subtree="AmIInMyHometown" condition="parentnot" conditionname = "AmIInMyHometown,AmIWaryOfStrangers"/>
+  <Substitution leaf="WaryGlance" subtree="AmIPoliteWaryGlance" condition="parentnot" conditionname = "AmIInMyHometown,AmIPolite"/>
+  <Substitution leaf="WhyAreYouActing" subtree="WillIRespondVerballyDisapprovingLook" condition="parentnot" conditionname = "WillIRespondVerbally,AmIGoingToReact"/>
+  <Substitution leaf="WhyAreYouActing" subtree="AmIGoingToReactBlankLook" condition="parentnot" conditionname = "WillIRespondVerbally, DoIKnowWhyThereIsEnmity"/>
+  <Substitution leaf="YoureAnIdiot" subtree="WillIRespondVerballyDisapprovingLook" condition="parentnot" conditionname = "WillIRespondVerbally"/>
+  <Substitution leaf="YellAndThreaten" subtree="AmIWillingToGetPhysical" condition="parentis" conditionname = "AmIGoingToReactViolently"/>
+  <Substitution leaf="YellAndThreaten" subtree="AmIGoingToReactViolentlyYellAndThreaten" condition="parentnot" conditionname = "AmIGoingToReactViolently,AmIWillingToGetPhysical"/>
+</element>
+<!--<Substitution leaf="" subtree="" condition="parentnot" conditionname = ""/>-->
+<!--<Substitution leaf="Greeting" subtree="AmIWaryOfStrangersWaryGlance" condition="parentnot" conditionname = "AmIInAGoodMood,AmIWaryOfStrangers"/>-->

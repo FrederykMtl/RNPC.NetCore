@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AmIPoliteWaryGlance>
+  <Node text="AmIPolite" decision="right" test="40">
+    <Leaf text="WaryGlance" decision="left" />
+    <Leaf text="Default" decision="right" />
+  </Node>
+</AmIPoliteWaryGlance>

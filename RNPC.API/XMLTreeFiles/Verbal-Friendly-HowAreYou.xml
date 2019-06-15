@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Friendly-HowAreYou defaultreaction="ImGood">
+  <Root text="DoIKnowThisPerson" test="40">
+    <Node text="AmIWaryOfStrangers" decision="left">
+      <Leaf text="Default" decision="left"/>
+      <Leaf text="ColdLook" decision="right" />
+    </Node>
+    <Node text="DoILikeThisPerson" decision="right">
+      <Leaf text="FriendlyImGood" decision="right" />
+      <Leaf text="NoneOfYourBusiness" decision="left" />
+    </Node>
+  </Root>
+</Verbal-Friendly-HowAreYou>

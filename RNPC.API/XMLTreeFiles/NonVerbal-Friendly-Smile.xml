@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NonVerbal-Friendly-Smile defaultreaction="Smile">
+  <Root text="DoIKnowThisPerson" test="40">
+    <Node text="AmIWaryOfStrangers" decision="left">
+      <Leaf text="Default" decision="left"/>
+      <Leaf text="ColdLook" decision="right" />
+    </Node>
+    <Node text="DoILikeThisPerson" decision="right">
+      <Leaf text="SincereSmile" decision="right" />
+      <Leaf text="ColdLook" decision="left" />
+    </Node>
+  </Root>
+</NonVerbal-Friendly-Smile>

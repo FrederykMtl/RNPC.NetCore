@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Verbal-Neutral-Greeting defaultreaction="Greeting">
+  <Root text="DoIKnowThisPerson">
+    <Node text="AmIWaryOfStrangers" decision="left" test="40">
+      <Leaf text="Greeting" decision="left" />
+      <Node text="Do I Like Meeting New People?" decision="right" test="70">
+        <Node text="AmIPolite" decision="left" Test="60">
+          <Leaf text="Glare" decision="left" />
+          <Leaf text="Salute" decision="right" />
+        </Node>
+        <Leaf text="IntroduceMyself" decision="right" />
+      </Node>
+    </Node>
+    <Node text="DoILikeThisPerson" decision="right">
+      <Leaf text="Greeting" decision="left" />
+      <Node text="AmIPolite" decision="right">
+        <Leaf text="Glare" decision="left" />
+        <Leaf text="Greeting" decision="right" />
+      </Node>
+    </Node>
+  </Root>
+</Verbal-Neutral-Greeting>
